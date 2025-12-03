@@ -16,10 +16,10 @@ hideComments = false
 ## Présentation
 
 Dans cette section, je centralise mes enseignements autour de la BlueTeam. J'ai pour objectif de passer pluseiurs certificatiosn parmi : 
-- HTB CJCA [https://academy.hackthebox.com/preview/certifications/htb-certified-junior-cybersecurity-associate]
-- HTB CDSA [https://academy.hackthebox.com/preview/certifications/htb-certified-data-security-analyst]
-- SC-200 [https://learn.microsoft.com/fr-fr/credentials/certifications/security-operations-analyst/]
-- Splunk Certified User [https://www.splunk.com/en_us/training/certification-track/splunk-core-certified-user.html]
+- [HTB CJCA](https://academy.hackthebox.com/preview/certifications/htb-certified-junior-cybersecurity-associate)
+- [HTB CDSA](https://academy.hackthebox.com/preview/certifications/htb-certified-data-security-analyst)
+- [SC-200](https://learn.microsoft.com/fr-fr/credentials/certifications/security-operations-analyst/)
+- [Splunk Certified User](https://www.splunk.com/en_us/training/certification-track/splunk-core-certified-user.html)
 
 Voici une liste des différents articles : 
  - [BlueTeam](/posts/BlueTeam/presentation)
