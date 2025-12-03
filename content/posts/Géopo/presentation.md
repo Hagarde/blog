@@ -1,17 +1,17 @@
-++++
++++
 title = "Presentation"
-date = "2025-12-03T12:21:55+01:00"
+date = "2025-12-02"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
 author = "worri"
 authorTwitter = "" #do not include @
 cover = ""
-tags = ["", ""]
+tags = ["Géopolitique", ""]
 keywords = ["", ""]
 description = ""
 showFullContent = false
 readingTime = false
 hideComments = false
-++++
++++
 
 ## Présentation
 
