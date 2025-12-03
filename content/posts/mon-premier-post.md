@@ -23,6 +23,7 @@ Ceci est mon blog, je souhaiterais y décrire l'ensemble des domaines auquel je 
 - CTI [CTI](/posts/CTI/presentation)
 - Géopolitique [Géopolitique](/posts/Géopo/presentation)
 - Crypto [Crypto](/posts/Crypto/presentation)
+- Privacy [Privacy](/posts/Privacy/presentation)
 
 ## Objectifs : 
 
