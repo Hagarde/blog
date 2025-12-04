@@ -5,7 +5,7 @@ date = "2025-12-03T12:21:55+01:00"
 author = "worri"
 authorTwitter = "" #do not include @
 cover = ""
-tags = ["Crypto", ""]
+tags = ["Privacy", ""]
 keywords = ["", ""]
 description = ""
 showFullContent = false
@@ -44,7 +44,15 @@ Ainsi, une fois les connexions établies, le client chiffre ses données avec `K
 | Contenu      | Inconnue  | Inconnue     | Inconnue  |
  
 La situation dans laquelle un grand nombre de noeud sont contrôlées par une entité ( CIA par exemple ) alors il serait possible de corréler les timinig et les tailles de requêtes pour identifier les utilisateurs et leur traffic si celui-ci contrôle l'entrée et la sortie.
-C'est pourquoi, le Guard Node est réutilisé pour un utilisateur pour une durée de 2 à 3 mois. Cela permet de réduire le nombre de noeud connaissant l'origine du traffic etréduit la probabilité qu'un traffic soit connu de A à Z bien que cela augmente parfois la durée de la compromission de la confidentialité des données. 
+C'est pourquoi, le Guard Node est réutilisé pour un utilisateur pour une durée de 2 à 3 mois. Cela permet de réduire le nombre de noeud connaissant l'origine du traffic et réduit la probabilité qu'un traffic soit connu de A à Z bien que cela augmente parfois la durée de la compromission de la confidentialité des données. 
+
+
+## Hidden Services
+
+Un ensemble de services disponibles à travers Tor ne sont pas accessibles via l'adresse IP publique mais sont accessibles via une adresse Tor. Cela permet notamment d'assurer une forme d'anonymat des clients ET des serveurs. Cela fonctionne de la manière suivante : 
+- Le serveur génère une clé privée et une clé publique. De cette clé publique est dérivée une adresse Tor en `.onion`. 
+- à partir de cette adresse, 4-5 noeuds sont sélectionnés de manière déterministe pour être des `points d'introduction`. Ces points d'introduction seront le point de rendez-vous avec le client. Leur adresse est transmises à "DNS" ou Hidden Services Directories dans lequel sont stockés des `descriptor` contenant les clés publique et les adresses des points d'introduction. 
+- Finalement, le client établit une connexion avec le point d'introduction et le Hidden Service aussi, ainsi le traffic et forwardé par le PI vers le HS sans que le PI ne puisse savoir la destination du traffic ou son contenu bien que il sache vers quel service cela va. 
 
 ## Source : 
 
